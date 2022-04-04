@@ -16,9 +16,9 @@
     <div class="d-flex justify-content-center py-5"> 
         <h2 class="fw-bold">Online Border Radius Generator</h2>
     </div>
-    <div> <!-- Graficos -->
-        <div class="d-flex justify-content-around align-items-end"> <!-- superior -->
-            <div class="BSD d-flex flex-column"> <!-- burbuja -->
+    <div> 
+        <div class="d-flex justify-content-around align-items-end">
+            <div class="BSD d-flex flex-column">
                 <div class="d-flex justify-content-around ">
                     <input type="text" class="text-center txtInput border border-white p-3" id="b1" value="0">
                 </div>
@@ -30,7 +30,7 @@
                     <label class="form-check-label" for="flexCheckDefault">All the same</label>
                 </div>
             </div>
-            <div class="BSI d-flex flex-column">  <!-- burbuja -->
+            <div class="BSI d-flex flex-column"> 
                 <div class="d-flex justify-content-around">
                     <input type="text" class="text-center txtInput border border-white p-3" id="b2" value="0">
                 </div>
@@ -45,8 +45,8 @@
                 <textarea id="txtArea" class="txtArea" rows="9" cols="50"></textarea>
             </div>
         </div>
-        <div class="d-flex justify-content-around"> <!-- inferior -->
-            <div class="BID d-flex flex-column"> <!-- burbuja -->
+        <div class="d-flex justify-content-around"> 
+            <div class="BID d-flex flex-column"> 
                 <div class="d-flex justify-content-around">
                     <input type="text" class="text-center txtInput border border-white p-3" id="b3" value="0">
                 </div>
@@ -54,7 +54,7 @@
                     <input class="rangeB" type="range" min="0" max="40" value="0" step="1">
                 </div>
             </div>
-            <div class="BII d-flex flex-column"> <!-- burbuja -->
+            <div class="BII d-flex flex-column"> 
                 <div class="d-flex justify-content-around">
                     <input type="text" class="text-center txtInput border border-white p-3" id="b4" value="0">
                 </div>
@@ -64,8 +64,8 @@
             </div>
         </div>
     </div>
-    <div class="my-4 "> <!-- ajustes -->
-        <div class="sectionW d-inline d-flex justify-content-center my-1"> <!-- width -->
+    <div class="my-4 "> 
+        <div class="sectionW d-inline d-flex justify-content-center my-1">
             <span class="titleSetting">Width:</span>
             <button class="mx-5 btnReset">1</button>
             <div class="inputDiv">
@@ -73,7 +73,7 @@
                 <input type="range" class="SRTag" value="5" min="0" max="30" autocomplete="off" id="input1">
             </div>
         </div>
-        <div class="sectionW d-flex justify-content-center my-1"> <!-- style -->
+        <div class="sectionW d-flex justify-content-center my-1">
             <span class="titleSetting">Style:</span>
             <a href=""><div type="button" class="px-2 py-1 btnStyle btnSolid mx-2">solid</div></a>
             <a href=""><div type="button" class=" px-2 py-1 btnStyle btnDotted mx-2">dotted</div></a>
@@ -86,7 +86,7 @@
             <a href=""><div type="button" class=" px-2 py-1 btnStyle btnHidden mx-2">hidden</div></a>
             <a href=""><div type="button" class=" px-2 py-1 btnStyle btnNone mx-2">none</div></a>
         </div>
-        <div class="sectionW d-flex justify-content-center my-2"> <!-- color -->
+        <div class="sectionW d-flex justify-content-center my-2"> 
             <span class="titleSetting px-2 ">Color:  </span>
             <input type="color" value="#1c70b0"  class=" px-2 btn py-1 "/>
             
@@ -96,7 +96,7 @@
                 <input type="range" class="SRTag" step="0.01" value="1" min="0" max="1" autocomplete="off" id="valorColor">
             </div>
         </div>
-        <div class="sectionW d-flex justify-content-center my-3"> <!-- position -->
+        <div class="sectionW d-flex justify-content-center my-3"> 
             <span class="titleSetting">Position:   </span>
             <a href=""><div type="button" class=" px-4 btnStyle btnSolid ms-2">All</div></a>
             <a href=""><div type="button" class=" px-4 mx-2 btnStyle bTop">Top</div></a>
@@ -105,7 +105,6 @@
             <a href=""><div type="button" class=" px-4 mx-2 btnStyle bLeft">Left</div></a>
         </div>
     </div>
-    <!-- JAVASCRIPT -->
-    <script src="JS/main.js"></script>
+    
 </body>
 </html>
